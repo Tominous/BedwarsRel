@@ -79,7 +79,7 @@ holographic-stats:
   # type: boolean
   # If true, the bedwars prefix will be shown on the bedwars
   # holographic stats.
-  show-prefix: false
+  show-prefix: true
   
   # Statistic names color
   # type: string
@@ -94,19 +94,19 @@ holographic-stats:
   # statistics headline
   # type: string
   # Leave the headline empty to remove the headline
-  head-line: "Your &eBEDWARS&f stats"
+  head-line: "Your &eBEDWARS&f statistics"
 
 # Add teamname in tablist
 # type: boolean
 # Adds the teamname before the player name 
 # in the tablist
-teamname-on-tab: false
+teamname-on-tab: true
 
 # Teamname after player name
 # type: boolean
 # If true, the teamname will be added behind the player name
 # in chat messages. If false, teamname won't be visible
-teamname-in-chat: false
+teamname-in-chat: true
 
 # Show hearts on death
 # type: boolean
@@ -223,7 +223,7 @@ lobby-scoreboard:
   #  $gamename$  = Name of the game
   #  $players$  = Current number of players
   #  $maxplayers$ = The maximum players for this game
-  title: "&eBEDWARS"
+  title: "&e&lBEDWARS"
   
   # Lobby scoreboard content
   # type: List<string>
@@ -315,7 +315,7 @@ titles:
     # If true, a title will be displayed on start
     # with the region name displayed and if set, the builder
     # as subtitle. (/bw setbuilder {game})
-    enabled: false
+    enabled: true
     
     # io.github.bedwarsrel.com.v1_8_r1.Title Fade-In time
     # type: double
@@ -410,7 +410,7 @@ save-inventory: true
 # Type: boolean
 # Sets if the name of a player's team should be displayed
 # in the io.github.bedwarsrel.com.v1_8_r1.ActionBar
-show-team-in-actionbar: false
+show-team-in-actionbar: true
 
 # Chat to all prefix
 # type: list
@@ -431,7 +431,7 @@ seperate-game-chat: true
 # type: boolean
 # If set to true, spectators and game-players are seperated
 # and players don't see spectators chat
-seperate-spectator-chat: false
+seperate-spectator-chat: true
 
 # Statistic-Configuration
 statistics:
@@ -550,7 +550,7 @@ endgame:
 ### location (you can set with /bw setmainlobby {game}) after a game or when a player
 ### uses /bw leave. If this is set to false, the players will be teleported to the location
 ### where they joined the game!
-  mainlobby-enabled: false
+  mainlobby-enabled: true
   
 ### All players to mainlobby
 ### Type: boolean
@@ -566,7 +566,7 @@ bungeecord:
  # Type: boolean
  # Set to true to enable bungeecord compatibility. Set to false when you have
  # a single server and don't use bungeecord.
-  enabled: false
+  enabled: true
 
  # Bungeecord Hubserver
  # Type: string
@@ -682,7 +682,7 @@ rewards:
   # Enable rewards
   # type: boolean
   # Enables reward commands
-  enabled: false
+  enabled: true
   
   # game win
   # type: List<string>
