@@ -183,7 +183,7 @@ sign:
     running: "&9Running!"
     full: "Full!"
 stats:
-  header: "Bedwars Stats"
+  header: "Bedwars Statistics"
   kd: "K/D"
   statsnotfound: "Statistics of $player$ not found!"
   name: "Name"
